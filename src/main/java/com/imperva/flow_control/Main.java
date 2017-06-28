@@ -20,7 +20,7 @@ public class Main {
             System.out.println(string);
         }
 
-        strings.forEach(System.out::println);
+//        strings.forEach(System.out::println);
 
 
 

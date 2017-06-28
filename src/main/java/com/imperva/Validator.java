@@ -5,8 +5,8 @@ package com.imperva;
  */
 public interface Validator {
     void validate(String line);
-    default void base(){
+    /*default void base(){
 
         System.out.println(123);
-    }
+    }*/
 }

@@ -11,12 +11,12 @@ public class Son implements Mother, Father {
 
     }
 
-    @Override
+//    @Override
     public void talkToSon(String str) {
         xxx(12,"sddas","asdas","asdassada");
     }
 
-    @Override
+//    @Override
     public void call(String string) {
 
     }
