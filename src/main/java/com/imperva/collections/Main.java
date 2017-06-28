@@ -6,24 +6,32 @@ import com.imperva.polymorphism.Cat;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
 
 /**
  * Created by Evegeny on 28/06/2017.
  */
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Animal> animals = new ArrayList<>();
-        animals.add(new Cat());
 
-        Animal animal = animals.get(0);
+        ArrayList<String> actors = new ArrayList<>();
+        actors.add("Arnold");
+        actors.add("Stallone");
+        actors.add("Chuck Norris");
+        actors.add("Brus Lee");
+
+        String actorToRemove = "Arnold";
+
+        actors.removeIf(actor -> actor.equalsIgnoreCase(actorToRemove));
+
+        System.out.println(actors);
 
 
-        ArrayList<Integer> integers = new ArrayList<>();
-        integers.add(3);
 
-        HashSet<String> set = new HashSet<>();
-        set.add("java");
-        System.out.println(set);
+
+
+
+
 
 
     }

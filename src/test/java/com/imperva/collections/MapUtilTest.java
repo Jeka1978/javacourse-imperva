@@ -27,6 +27,14 @@ public class MapUtilTest {
 
     }
 
+    @Test
+    public void checkDouble() throws Exception {
+        double x = 1.1;
+        double y = 1.3;
+        System.out.println(x+y);
+        Assert.assertEquals(2.4,x+y,0.0001);
+
+    }
 }
 
 
